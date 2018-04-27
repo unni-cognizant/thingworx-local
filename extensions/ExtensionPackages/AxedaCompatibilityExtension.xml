@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ build="b140"
+ majorVersion="8"
+ minorVersion="2"
+ modelPersistenceProviderPackage="H2PersistenceProviderPackage"
+ revision="1"
+ schemaVersion="1020"
+ universal="">
+    <ExtensionPackages>
+        <ExtensionPackage
+         aspect.isExtension="true"
+         buildNumber=""
+         dependsOn=""
+         description="Provides Thingworx objects that represent Axeda Platform objects to enable ThingWorx integration."
+         documentationContent=""
+         homeMashup=""
+         lastModifiedDate="2018-04-19T19:49:27.649+05:30"
+         migratorClass=""
+         minimumThingWorxVersion="7.3.2"
+         name="AxedaCompatibilityExtension"
+         packageVersion="2.3.6"
+         projectName=""
+         tags=""
+         vendor="ThingWorx">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTables></ConfigurationTables>
+        </ExtensionPackage>
+    </ExtensionPackages>
+</Entities>

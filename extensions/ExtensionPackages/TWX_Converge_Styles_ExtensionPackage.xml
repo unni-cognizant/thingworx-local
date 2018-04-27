@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ build="b140"
+ majorVersion="8"
+ minorVersion="2"
+ modelPersistenceProviderPackage="H2PersistenceProviderPackage"
+ revision="1"
+ schemaVersion="1020"
+ universal="">
+    <ExtensionPackages>
+        <ExtensionPackage
+         aspect.isExtension="true"
+         buildNumber="EA-1"
+         dependsOn=""
+         description="ThingWorx Utilities Common Style Definitions"
+         documentationContent=""
+         homeMashup=""
+         lastModifiedDate="2018-04-19T19:53:56.520+05:30"
+         migratorClass=""
+         minimumThingWorxVersion="8.0.0"
+         name="TWX_Converge_Styles_ExtensionPackage"
+         packageVersion="8.1.2"
+         projectName=""
+         tags=""
+         vendor="PTC">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTables></ConfigurationTables>
+        </ExtensionPackage>
+    </ExtensionPackages>
+</Entities>
