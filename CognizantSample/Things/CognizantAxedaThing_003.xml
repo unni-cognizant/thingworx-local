@@ -3,7 +3,7 @@
  build="b140"
  majorVersion="8"
  minorVersion="2"
- modelPersistenceProviderPackage="H2PersistenceProviderPackage"
+ modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
  revision="1"
  schemaVersion="1020"
  universal="">
@@ -15,7 +15,7 @@
          enabled="true"
          homeMashup=""
          identifier=""
-         lastModifiedDate="2018-04-27T12:12:08.175+05:30"
+         lastModifiedDate="2018-04-27T08:28:56.445Z"
          name="CognizantAxedaThing_003"
          projectName="CognizantSample"
          published="false"
@@ -70,8 +70,8 @@
             <ImplementedShapes></ImplementedShapes>
             <ThingProperties>
                 <lastConnection>
-                    <Value>1970-01-01T05:30:00.000+05:30</Value>
-                    <Timestamp>2018-04-27T12:13:04.072+05:30</Timestamp>
+                    <Value>1970-01-01T00:00:00.000Z</Value>
+                    <Timestamp>2018-04-27T06:43:04.072Z</Timestamp>
                     <Quality>GOOD</Quality>
                 </lastConnection>
                 <InstalledPackages>
@@ -115,7 +115,7 @@
                             <Rows></Rows>
                         </infoTable>
                     </Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </InstalledPackages>
                 <managedDevices>
@@ -139,22 +139,22 @@
                             <Rows></Rows>
                         </infoTable>
                     </Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </managedDevices>
                 <sharedKey>
                     <Value></Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </sharedKey>
                 <firstRegistrationDate>
-                    <Value>1970-01-01T05:30:00.000+05:30</Value>
-                    <Timestamp>2018-04-27T12:13:04.072+05:30</Timestamp>
+                    <Value>1970-01-01T00:00:00.000Z</Value>
+                    <Timestamp>2018-04-27T06:43:04.072Z</Timestamp>
                     <Quality>GOOD</Quality>
                 </firstRegistrationDate>
                 <buildVersion>
                     <Value></Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </buildVersion>
                 <serialNumber>
@@ -163,12 +163,12 @@
                     CognizantAxeda_Serial_003
                     ]]>
                     </Value>
-                    <Timestamp>2018-04-20T17:05:53.426+05:30</Timestamp>
+                    <Timestamp>2018-04-20T11:35:53.426Z</Timestamp>
                     <Quality>GOOD</Quality>
                 </serialNumber>
                 <address>
                     <Value></Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </address>
                 <alarms>
@@ -222,57 +222,57 @@
                             <Rows></Rows>
                         </infoTable>
                     </Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </alarms>
                 <language>
                     <Value></Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </language>
                 <pingRate>
                     <Value>0</Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </pingRate>
                 <priority>
                     <Value>0</Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </priority>
                 <token>
                     <Value></Value>
-                    <Timestamp>2018-04-20T17:06:03.798+05:30</Timestamp>
+                    <Timestamp>2018-04-20T11:36:03.798Z</Timestamp>
                     <Quality>GOOD</Quality>
                 </token>
                 <offline>
                     <Value>false</Value>
-                    <Timestamp>2018-04-27T12:13:04.072+05:30</Timestamp>
+                    <Timestamp>2018-04-27T06:43:04.072Z</Timestamp>
                     <Quality>GOOD</Quality>
                 </offline>
                 <condition>
                     <Value></Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </condition>
                 <assetName>
                     <Value></Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </assetName>
                 <agentVersion>
                     <Value></Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </agentVersion>
                 <timezoneName>
                     <Value></Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </timezoneName>
                 <tokenInvalid>
                     <Value>false</Value>
-                    <Timestamp>2018-04-27T12:13:04.072+05:30</Timestamp>
+                    <Timestamp>2018-04-27T06:43:04.072Z</Timestamp>
                     <Quality>GOOD</Quality>
                 </tokenInvalid>
                 <registeredScripts>
@@ -290,7 +290,7 @@
                             <Rows></Rows>
                         </infoTable>
                     </Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </registeredScripts>
                 <assetLogEvents>
@@ -325,17 +325,17 @@
                             <Rows></Rows>
                         </infoTable>
                     </Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </assetLogEvents>
                 <latestRegistrationDate>
-                    <Value>1970-01-01T05:30:00.000+05:30</Value>
-                    <Timestamp>2018-04-27T12:13:04.072+05:30</Timestamp>
+                    <Value>1970-01-01T00:00:00.000Z</Value>
+                    <Timestamp>2018-04-27T06:43:04.072Z</Timestamp>
                     <Quality>GOOD</Quality>
                 </latestRegistrationDate>
                 <modelName>
                     <Value></Value>
-                    <Timestamp>1970-01-01T05:30:00.000+05:30</Timestamp>
+                    <Timestamp>1970-01-01T00:00:00.000Z</Timestamp>
                     <Quality>UNKNOWN</Quality>
                 </modelName>
                 <modelNumber>
@@ -344,7 +344,7 @@
                     CognizantAxeda_Model_003
                     ]]>
                     </Value>
-                    <Timestamp>2018-04-20T17:05:18.623+05:30</Timestamp>
+                    <Timestamp>2018-04-20T11:35:18.623Z</Timestamp>
                     <Quality>GOOD</Quality>
                 </modelNumber>
             </ThingProperties>
