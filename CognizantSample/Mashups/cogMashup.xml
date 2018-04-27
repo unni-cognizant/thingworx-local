@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ build="b140"
+ majorVersion="8"
+ minorVersion="2"
+ modelPersistenceProviderPackage="H2PersistenceProviderPackage"
+ revision="1"
+ schemaVersion="1020"
+ universal="">
+    <Mashups>
+        <Mashup
+         aspect.isResponsive="true"
+         aspect.mashupType="mashup"
+         columns="0.0"
+         description=""
+         documentationContent=""
+         homeMashup=""
+         lastModifiedDate="2018-04-27T12:12:43.840+05:30"
+         name="cogMashup"
+         projectName="CognizantSample"
+         rows="0.0"
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTables></ConfigurationTables>
+            <ParameterDefinitions></ParameterDefinitions>
+            <Things></Things>
+            <ThingShapes></ThingShapes>
+            <ThingTemplates></ThingTemplates>
+            <mashupContent>
+            <![CDATA[
+            {
+              "CustomMashupCss" : "",
+              "Data" : {
+                "Session" : {
+                  "DataName" : "Session",
+                  "EntityName" : "",
+                  "EntityType" : "Session",
+                  "Id" : "session",
+                  "Services" : [ {
+                    "APIMethod" : "post",
+                    "Characteristic" : "Services",
+                    "Id" : "SessionInterface",
+                    "Name" : "GetGlobalSessionValues",
+                    "Parameters" : { },
+                    "RefreshInterval" : 0,
+                    "Target" : "GetGlobalSessionValues"
+                  } ]
+                },
+                "UserExtensions" : {
+                  "DataName" : "UserExtensions",
+                  "EntityName" : "",
+                  "EntityType" : "UserExtensions",
+                  "Id" : "UserExtensions",
+                  "Services" : [ {
+                    "APIMethod" : "post",
+                    "Characteristic" : "Services",
+                    "Id" : "UserExtensionInterface",
+                    "Name" : "GetCurrentUserExtensionProperties",
+                    "Parameters" : { },
+                    "RefreshInterval" : 0,
+                    "Target" : "GetCurrentUserExtensionProperties"
+                  } ]
+                }
+              },
+              "DataBindings" : [ {
+                "Id" : "cbbbfb29-2dac-45e8-a724-5bcc35a271c7",
+                "PropertyMaps" : [ {
+                  "SourceProperty" : "Value",
+                  "SourcePropertyBaseType" : "NUMBER",
+                  "SourcePropertyType" : "Property",
+                  "TargetProperty" : "Data",
+                  "TargetPropertyBaseType" : "NUMBER",
+                  "TargetPropertyType" : "property"
+                } ],
+                "SourceArea" : "UI",
+                "SourceId" : "slider-13",
+                "SourceSection" : "",
+                "TargetArea" : "UI",
+                "TargetId" : "progressgauge-12",
+                "TargetSection" : ""
+              } ],
+              "DesignTimePermissions" : { },
+              "Events" : [ ],
+              "RunTimePermissions" : { },
+              "UI" : {
+                "Properties" : {
+                  "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+                  "Area" : "Mashup",
+                  "BGImageRepeat" : "no-repeat",
+                  "BGImageSize" : "auto",
+                  "Columns" : 0,
+                  "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+                  "DisplayName" : "Mashup",
+                  "EnableParameterEditing" : false,
+                  "Height" : 618,
+                  "Id" : "mashup-root",
+                  "IgnoreWarningsInViewMashup" : false,
+                  "IsPrintLayout" : false,
+                  "Left" : 0,
+                  "MashupToEditGadget" : "DefaultMashupToEditGadget",
+                  "MinHeight" : 0,
+                  "MinWidth" : 0,
+                  "ResponsiveLayout" : true,
+                  "Rows" : 0,
+                  "ShowDataLoading" : true,
+                  "Style" : "DefaultMashupStyle",
+                  "Title" : "",
+                  "TitleBar" : false,
+                  "TitleBarStyle" : "DefaultTitleBarStyle",
+                  "TitleBarText" : "Gadget Title Here",
+                  "Top" : 0,
+                  "Type" : "mashup",
+                  "Visible" : true,
+                  "Width" : 1024,
+                  "Z-index" : 10,
+                  "__TypeDisplayName" : "Mashup",
+                  "id_index" : 18,
+                  "supportsAutoResize" : true
+                },
+                "Widgets" : [ {
+                  "Properties" : {
+                    "Area" : "UI",
+                    "DisplayName" : "panel-1",
+                    "Height" : 200,
+                    "HideScrollbars" : false,
+                    "HorizontalAnchor" : "left",
+                    "Id" : "panel-1",
+                    "Left" : 210,
+                    "ResponsiveLayout" : true,
+                    "ShowDataLoading" : true,
+                    "Style" : "DefaultPanelStyle",
+                    "Top" : 110,
+                    "Type" : "panel",
+                    "VerticalAnchor" : "top",
+                    "Visible" : true,
+                    "Width" : 300,
+                    "Z-index" : 10,
+                    "__TypeDisplayName" : "Panel"
+                  },
+                  "Widgets" : [ {
+                    "Properties" : {
+                      "Aperture" : 360,
+                      "Area" : "UI",
+                      "DisplayName" : "progressgauge-12",
+                      "GaugeBorder" : 20,
+                      "GaugeFaceStyle" : "DefaultProgressGaugeFaceStyle",
+                      "GaugeStyle" : "DefaultProgressGaugeStyle",
+                      "Height" : 200,
+                      "Id" : "progressgauge-12",
+                      "Left" : 39.930572509765625,
+                      "MaxValue" : 100,
+                      "MinValue" : 0,
+                      "ProgressFormatter_StateParameters" : [ ],
+                      "ProgressStyle" : "DefaultProgressGaugeIndicatorStyle",
+                      "ReferenceAngle" : 0,
+                      "ResponsiveLayout" : false,
+                      "RingWidth" : 10,
+                      "ShowDataLoading" : true,
+                      "Top" : 79.91319274902344,
+                      "Type" : "progressgauge",
+                      "ValueDecimals" : 0,
+                      "ValueDigits" : 3,
+                      "ValueFormatter_StateParameters" : [ ],
+                      "ValueStyle" : "DefaultProgressGaugeIndicatorStyle",
+                      "Visible" : true,
+                      "Width" : 200,
+                      "Z-index" : 10,
+                      "__TypeDisplayName" : "Progress Gauge"
+                    },
+                    "Widgets" : [ ]
+                  }, {
+                    "Properties" : {
+                      "Area" : "UI",
+                      "DisplayMinMaxLabels" : true,
+                      "DisplayName" : "slider-13",
+                      "DisplayValueLabel" : true,
+                      "Height" : 50,
+                      "Id" : "slider-13",
+                      "Left" : 35.989593505859375,
+                      "Maximum" : 100,
+                      "Minimum" : 0,
+                      "ResponsiveLayout" : false,
+                      "ShowDataLoading" : true,
+                      "Skin" : "Default",
+                      "SliderBGStyle" : "DefaultSliderBGStyle",
+                      "SliderBar" : "Thick",
+                      "SliderHandle" : "Square",
+                      "SliderHandleStyle" : "DefaultSliderHandleStyle",
+                      "SliderMaxStyle" : "DefaultSliderMaxStyle",
+                      "SliderMinStyle" : "DefaultSliderMinStyle",
+                      "SliderTrackerProgressStyle" : "DefaultSliderTrackerProgressStyle",
+                      "SliderTrackerStyle" : "DefaultSliderTrackerStyle",
+                      "SliderValueStyle" : "DefaultSliderValueStyle",
+                      "Step" : 1,
+                      "SteppingMode" : false,
+                      "Top" : 35.989593505859375,
+                      "TrackingMode" : false,
+                      "Type" : "slider",
+                      "Value" : 0,
+                      "Vertical" : false,
+                      "Visible" : true,
+                      "Width" : 300,
+                      "Z-index" : 10,
+                      "__TypeDisplayName" : "Slider"
+                    },
+                    "Widgets" : [ ]
+                  }, {
+                    "Properties" : {
+                      "AllowSelection" : true,
+                      "AlwaysUseCustomScrollerOniOS" : false,
+                      "Area" : "UI",
+                      "AutoSelectFirstRow" : false,
+                      "BottomPadding" : 10,
+                      "CellActiveStyle" : "DefaultCollectionCellActiveStyle",
+                      "CellBorderRadius" : "10",
+                      "CellBoxShadow" : "",
+                      "CellHoverStyle" : "DefaultCollectionCellHoverStyle",
+                      "CellMashupSelectedField" : "",
+                      "CellMenuStates" : "DefaultMenuStates",
+                      "CellMenuStatesIconGravity" : "Left",
+                      "CellMenuStatesIconSize" : 16,
+                      "CellMenuStatesOrientation" : "Horizontal",
+                      "CellMenuStatesUseBuiltin" : false,
+                      "CellMultipleSelectionType" : "Disabled",
+                      "CellPointer" : "Auto",
+                      "CellSelectedStyle" : "DefaultCollectionCellSelectedStyle",
+                      "CellStyle" : "DefaultCollectionCellStyle",
+                      "DisplayName" : "collection-14",
+                      "Event:name" : "1",
+                      "FlowLayoutAlignment" : "Center",
+                      "FlowLayoutContentGravity" : "Center",
+                      "FlowLayoutGravity" : "Spaced",
+                      "FooterHeight" : 44,
+                      "FooterSectionParam" : "",
+                      "HandleSelectionUpdates" : true,
+                      "HasSelectedCells" : false,
+                      "HeaderHeight" : 44,
+                      "HeaderSectionParam" : "",
+                      "Height" : 200,
+                      "Id" : "collection-14",
+                      "Left" : 350,
+                      "LeftAlignFinalRow" : false,
+                      "Mashup" : "repeaterMashup",
+                      "MashupGlobalPropertyBinding" : "{\"a\":\"16\", \"b\":\"72\", \"c\":\"22\", \"aa\":\"51\", \"ba\":\"32\", \"ca\":\"22\"}",
+                      "MashupHeight" : 50,
+                      "MashupPropertyBinding" : "{\"a\":\"16\", \"b\":\"72\", \"c\":\"22\", \"aa\":\"51\", \"ba\":\"32\", \"ca\":\"22\"}",
+                      "MashupWidth" : 115,
+                      "MasonryLayoutBottomPadding" : 22,
+                      "MasonryLayoutCellSpacing" : 22,
+                      "MasonryLayoutColumnSpacing" : 22,
+                      "MasonryLayoutColumnSpeeds" : "1, 2, 0.5, 1, 2, 0.5",
+                      "MasonryLayoutColumnWidth" : 0,
+                      "MasonryLayoutNumberOfColumns" : 5,
+                      "MasonryLayoutTopPadding" : 22,
+                      "MinimumSpacing" : 10,
+                      "MultiSelect" : false,
+                      "OffScreenBufferFactor" : 0.1,
+                      "PinFootersToBottom" : false,
+                      "PinHeadersToTop" : false,
+                      "PlaysIntroAnimation" : true,
+                      "ResponsiveLayout" : false,
+                      "RippleEffectStyle" : "DefaultCollectionRippleStyle",
+                      "RowSpacing" : 10,
+                      "ScrollsToSelectedCell" : false,
+                      "SectionInsetBottom" : 0,
+                      "SectionInsetLeft" : 0,
+                      "SectionInsetRight" : 0,
+                      "SectionInsetTop" : 0,
+                      "SelectedCellsCount" : 0,
+                      "ShowDataLoading" : true,
+                      "ShowFooters" : true,
+                      "ShowHeaders" : true,
+                      "SortAscending" : false,
+                      "Top" : 65,
+                      "TopPadding" : 10,
+                      "Type" : "collection",
+                      "UseCustomScrollerOnWindowsDesktops" : false,
+                      "UseMashupDimensions" : false,
+                      "UseRippleEffect" : false,
+                      "View" : "flow",
+                      "Visible" : true,
+                      "Width" : 500,
+                      "Z-index" : 10,
+                      "[Experimental] Fast widget append" : false,
+                      "_CanDoubleClick" : false,
+                      "_EventDataShape" : "{\"name\":{\"sourceType\":\"Unknown\",\"name\":\"name\",\"aspects\":{\"isReadOnly\":true,\"isPersistent\":false,\"isBuiltIn\":true},\"isLocalOnly\":true,\"description\":\"Thing name\",\"sourceName\":\"\",\"category\":\"Metadata\",\"baseType\":\"STRING\",\"ordinal\":1},\"description\":{\"sourceType\":\"Unknown\",\"name\":\"description\",\"aspects\":{\"isReadOnly\":true,\"isPersistent\":false,\"isBuiltIn\":true},\"isLocalOnly\":true,\"description\":\"Thing description\",\"sourceName\":\"\",\"category\":\"Metadata\",\"baseType\":\"STRING\",\"ordinal\":0},\"thingTemplate\":{\"sourceType\":\"Unknown\",\"name\":\"thingTemplate\",\"aspects\":{\"isReadOnly\":true,\"isPersistent\":false,\"isBuiltIn\":true},\"isLocalOnly\":true,\"description\":\"Thing Template\",\"sourceName\":\"\",\"category\":\"Metadata\",\"baseType\":\"THINGTEMPLATENAME\",\"ordinal\":3},\"tags\":{\"sourceType\":\"Unknown\",\"name\":\"tags\",\"aspects\":{\"isReadOnly\":true,\"isPersistent\":false,\"tagType\":\"ModelTags\",\"isBuiltIn\":true},\"isLocalOnly\":true,\"description\":\"Thing Tags\",\"sourceName\":\"\",\"category\":\"Metadata\",\"baseType\":\"TAGS\",\"ordinal\":2}}",
+                      "_GlobalDataShape" : "{\"a\":\"16\", \"b\":\"72\", \"c\":\"22\", \"aa\":\"51\", \"ba\":\"32\", \"ca\":\"22\"}",
+                      "_MenuDefinition" : "[]",
+                      "__TypeDisplayName" : "Collection"
+                    },
+                    "Widgets" : [ ]
+                  } ]
+                } ]
+              },
+              "mashupType" : "mashup"
+            }
+            ]]>
+            </mashupContent>
+        </Mashup>
+    </Mashups>
+</Entities>
