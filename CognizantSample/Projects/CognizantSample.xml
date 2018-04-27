@@ -3,17 +3,17 @@
  build="b140"
  majorVersion="8"
  minorVersion="2"
- modelPersistenceProviderPackage="H2PersistenceProviderPackage"
+ modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
  revision="1"
  schemaVersion="1020"
  universal="">
     <Projects>
         <Project
          dependsOn=""
-         description=""
+         description="Cognizant sample project"
          documentationContent=""
          homeMashup=""
-         lastModifiedDate="2018-04-27T12:11:53.996+05:30"
+         lastModifiedDate="2018-04-27T08:50:21.085Z"
          name="CognizantSample"
          packageVersion="1.0.0"
          projectName="CognizantSample"
